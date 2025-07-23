@@ -1,0 +1,16 @@
+C:\Personal\AlgorithmsPractice\AlgorithmsPractice\bin\Debug\net6.0\AlgorithmsPractice.exe
+C:\Personal\AlgorithmsPractice\AlgorithmsPractice\bin\Debug\net6.0\AlgorithmsPractice.deps.json
+C:\Personal\AlgorithmsPractice\AlgorithmsPractice\bin\Debug\net6.0\AlgorithmsPractice.runtimeconfig.json
+C:\Personal\AlgorithmsPractice\AlgorithmsPractice\bin\Debug\net6.0\AlgorithmsPractice.dll
+C:\Personal\AlgorithmsPractice\AlgorithmsPractice\bin\Debug\net6.0\AlgorithmsPractice.pdb
+C:\Personal\AlgorithmsPractice\AlgorithmsPractice\obj\Debug\net6.0\AlgorithmsPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Personal\AlgorithmsPractice\AlgorithmsPractice\obj\Debug\net6.0\AlgorithmsPractice.AssemblyInfoInputs.cache
+C:\Personal\AlgorithmsPractice\AlgorithmsPractice\obj\Debug\net6.0\AlgorithmsPractice.AssemblyInfo.cs
+C:\Personal\AlgorithmsPractice\AlgorithmsPractice\obj\Debug\net6.0\AlgorithmsPractice.csproj.CoreCompileInputs.cache
+C:\Personal\AlgorithmsPractice\AlgorithmsPractice\obj\Debug\net6.0\AlgorithmsPractice.dll
+C:\Personal\AlgorithmsPractice\AlgorithmsPractice\obj\Debug\net6.0\refint\AlgorithmsPractice.dll
+C:\Personal\AlgorithmsPractice\AlgorithmsPractice\obj\Debug\net6.0\AlgorithmsPractice.pdb
+C:\Personal\AlgorithmsPractice\AlgorithmsPractice\obj\Debug\net6.0\AlgorithmsPractice.genruntimeconfig.cache
+C:\Personal\AlgorithmsPractice\AlgorithmsPractice\obj\Debug\net6.0\ref\AlgorithmsPractice.dll
+C:\Personal\AlgorithmsPractice\AlgorithmsPractice\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Personal\AlgorithmsPractice\AlgorithmsPractice\obj\Debug\net6.0\AlgorithmsPractice.csproj.ResolveComReference.cache

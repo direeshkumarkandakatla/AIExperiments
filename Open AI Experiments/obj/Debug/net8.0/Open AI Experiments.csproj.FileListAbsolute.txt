@@ -1,0 +1,14 @@
+C:\Personal\Open AI Experiments\bin\Debug\net8.0\Open AI Experiments.exe
+C:\Personal\Open AI Experiments\bin\Debug\net8.0\Open AI Experiments.deps.json
+C:\Personal\Open AI Experiments\bin\Debug\net8.0\Open AI Experiments.runtimeconfig.json
+C:\Personal\Open AI Experiments\bin\Debug\net8.0\Open AI Experiments.dll
+C:\Personal\Open AI Experiments\bin\Debug\net8.0\Open AI Experiments.pdb
+C:\Personal\Open AI Experiments\obj\Debug\net8.0\Open AI Experiments.GeneratedMSBuildEditorConfig.editorconfig
+C:\Personal\Open AI Experiments\obj\Debug\net8.0\Open AI Experiments.AssemblyInfoInputs.cache
+C:\Personal\Open AI Experiments\obj\Debug\net8.0\Open AI Experiments.AssemblyInfo.cs
+C:\Personal\Open AI Experiments\obj\Debug\net8.0\Open AI Experiments.csproj.CoreCompileInputs.cache
+C:\Personal\Open AI Experiments\obj\Debug\net8.0\Open AI Experiments.dll
+C:\Personal\Open AI Experiments\obj\Debug\net8.0\refint\Open AI Experiments.dll
+C:\Personal\Open AI Experiments\obj\Debug\net8.0\Open AI Experiments.pdb
+C:\Personal\Open AI Experiments\obj\Debug\net8.0\Open AI Experiments.genruntimeconfig.cache
+C:\Personal\Open AI Experiments\obj\Debug\net8.0\ref\Open AI Experiments.dll

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "3C9E89EeaWU=",
+  "success": true,
+  "projectFilePath": "C:\\Personal\\AIExperiments\\Open AI Experiments\\Open AI Experiments.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\direek\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\direek\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.3\\microsoft.extensions.logging.abstractions.8.0.3.nupkg.sha512",
+    "C:\\Users\\direek\\.nuget\\packages\\openai\\2.2.0\\openai.2.2.0.nupkg.sha512",
+    "C:\\Users\\direek\\.nuget\\packages\\system.clientmodel\\1.4.2\\system.clientmodel.1.4.2.nupkg.sha512",
+    "C:\\Users\\direek\\.nuget\\packages\\system.memory.data\\6.0.1\\system.memory.data.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
