@@ -1,48 +1,26 @@
-from agents import (
-    Agent,
-    Runner,
-    RunConfig,
-    set_default_openai_key,
-    function_tool
-) 
-import os
+from agents import Agent, Runner
 
-set_default_openai_key(os.environ.get("OPENAI_API_KEY"))
-
-@function_tool
-def calculate_tip(bill_amount: float, tip_percentage: float) -> str:
-    """
-    Calculate the tip based on the bill amount and tip percentage.
-    
-    Args:
-        bill_amount (float): The total bill amount.
-        tip_percentage (float): The percentage of the bill to be given as a tip.
-        
-    Returns:
-        string: The calculated tip amount.
-    """
-    tip_amount = round(bill_amount * (tip_percentage / 100), 2)
-    total_amount = bill_amount + tip_amount
-
-    result = f"The tip is ${tip_amount} and the total amount to be paid is ${total_amount}."
-
-    print(f"Calculated total amount: {result}")
-
-    return result
-
-restaurant_agent = Agent(
-    name="RestaurantAgent",
-    instructions="An agent that can calculate tips based on bill amounts and tip percentages.",
-    tools=[calculate_tip],
-    model="gpt-4.1"
+agent = Agent(
+    name="Math Tutorial Agent",
+    description="You provide step-by-step explanations for solving math problems."
 )
 
-config = RunConfig(tracing_disabled=True, trace_include_sensitive_data=False)
+history_tutor_agent = Agent(
+    name="History Tutor Agent",
+    description="You provide detailed explanations and insights into historical events."
+)
 
-result = Runner.run_sync(
-    starting_agent=restaurant_agent,
-    input="I had a bill of $50 and I want to give a tip of 20%. How much should I tip?",
-    run_config=config)
+math_tutor_agent = Agent(
+    name="Math Tutor Agent",
+    description="You provide step-by-step explanations for solving math problems."
+)
 
-print(f"Agent response: {result.final_output}")
-print(f"Guard rail:{result.output_guardrail_results}")
+triage_agent = Agent(
+    name="Triage Agent",
+    description="You determine which agent is best suited to handle a user's request based on the content of the request.",
+    handoffs=[history_tutor_agent, math_tutor_agent]
+)
+
+async def main():
+    result = await Runner.run(triage_agent, "Explain the causes of World War II.")
+    print(f"Result: {result.final_output}")

@@ -24,4 +24,6 @@ response = client.responses.create(
     temperature=2,
     input= inputtext)
 
+print("this is my open ai api work. thank you..!")
+
 print(response.output_text)

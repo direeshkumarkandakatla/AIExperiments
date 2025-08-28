@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Open AI Experiments")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92dff9d932a19a37eed6b7db74234fc1b60253df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+216ee287ef89b1cfe8d5b964c0f196c01c5544dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Open AI Experiments")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Open AI Experiments")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
